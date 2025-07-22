@@ -11,4 +11,4 @@ I will soon release an ADB script that disables these dangerous permissions and 
 
 # Update
 
-Current releases marked as pre-release will almost certainly return a dummy value. I will make new releases that will display the BSSID and MAC of current device. For BSSID I am sure that it will work for all devices. For the MAC address of the device it may vary by manufacturers. Having any app that has location and WIFI permission (`ACCESS_COARSE_LOCATION`, `ACCESS_WIFI_STATE`, and sometimes `ACCESS_FINE_LOCATION`)
+Current releases marked as pre-release will almost certainly return a dummy value. I will make new releases that will display the BSSID and MAC of the current device. For BSSID, I am sure that it will work for all devices. For the MAC address of the device it may vary among manufacturers. Having any app that has location and WIFI permission (`ACCESS_COARSE_LOCATION`, `ACCESS_WIFI_STATE`, and sometimes `ACCESS_FINE_LOCATION`), even if disabled through settings on the device, may leak BSSID and MAC address. This data is often collected by data providers and anti-fraud libraries, and SDKs.
