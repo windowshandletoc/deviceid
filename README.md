@@ -8,3 +8,7 @@ Many apps passively collect such information to build a profile of you. If you w
 # Future
 
 I will soon release an ADB script that disables these dangerous permissions and another for a specific OEM(s) and their hidden APIs.
+
+# Update
+
+Current releases marked as pre-release will almost certainly return a dummy value. I will make new releases that will display the BSSID and MAC of current device. For BSSID I am sure that it will work for all devices. For the MAC address of the device it may vary by manufacturers. Having any app that has location and WIFI permission (`ACCESS_COARSE_LOCATION`, `ACCESS_WIFI_STATE`, and sometimes `ACCESS_FINE_LOCATION`)
